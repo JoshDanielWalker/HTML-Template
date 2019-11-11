@@ -49,6 +49,7 @@ workflows:
            - Hello-World
      - Hold-For-Approval:
          type: approval
+         timeout: 1m
          requires:
            - Run-With-Node
            - I-Have-Code
