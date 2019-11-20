@@ -54,5 +54,4 @@ workflows:
            - Run-With-Node
      - Now-Complete:
          requires:
-           - Hold-For-Approval
            - Run-With-Node
