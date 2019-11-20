@@ -52,7 +52,6 @@ workflows:
          timeout: 1m
          requires:
            - Run-With-Node
-           - I-Have-Code
      - Now-Complete:
          requires:
            - Hold-For-Approval
